@@ -34,4 +34,21 @@ a {
   font-family: 'Arial', sans-serif;
   color: #ffffff;
   font-size: 16px;
+  margin: 0;
+  padding: 5%;
+}
+
+.pravidla {
+  background-color: #1fcca4;
+  border-bottom: 1px solid #283e50;
+}
+
+.zacithrat {
+  background-color: #0197f6;
+}
+.pravidla:hover {
+  background-color: #1cbb96;
+}
+.zacithrat:hover {
+  background-color: #0090e9;
 }
