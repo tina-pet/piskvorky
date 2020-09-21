@@ -8,3 +8,30 @@
 img {
   width: 100%;
 }
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 5%;
+}
+
+.obsah {
+  background-color: #283e50;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+}
