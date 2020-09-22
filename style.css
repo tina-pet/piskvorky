@@ -1,8 +1,10 @@
 .obsah {
-  width: 370px;
+  width: 365px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 60px;
   text-align: center;
+  background-color: #283e50;
 }
 
 img {
@@ -14,6 +16,7 @@ h1 {
   color: #ffffff;
   font-size: 48px;
   font-weight: 300;
+  margin: 25px;
 }
 
 p {
@@ -21,11 +24,7 @@ p {
   color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
-  padding: 0 5%;
-}
-
-.obsah {
-  background-color: #283e50;
+  padding: 0px 15px 15px 15px;
 }
 
 a {
@@ -51,4 +50,11 @@ a {
 }
 .zacithrat:hover {
   background-color: #0090e9;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(#615dad, #ffc8da);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
