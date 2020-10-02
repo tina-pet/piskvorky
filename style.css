@@ -5,6 +5,7 @@
   margin-top: 60px;
   text-align: center;
   background-color: #283e50;
+  overflow: hidden;
 }
 
 img {
@@ -19,7 +20,8 @@ h1 {
   margin: 25px;
 }
 
-p {
+p,
+ol {
   font-family: 'Arial', sans-serif;
   color: #ffffff;
   font-size: 16px;
@@ -57,4 +59,9 @@ body {
   background: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.list {
+  margin: 25px;
+  text-align: left;
 }
