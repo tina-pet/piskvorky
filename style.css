@@ -6,6 +6,8 @@
   text-align: center;
   background-color: #283e50;
   overflow: hidden;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 img {
@@ -62,6 +64,14 @@ body {
 }
 
 .list {
-  margin: 25px;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 40px;
   text-align: left;
+  line-height: 1.15;
+}
+
+li {
+  padding-left: 10px;
+  margin-bottom: 15px;
 }
