@@ -64,7 +64,6 @@ body {
 }
 
 .list {
-  margin-top: 50px;
   margin-left: 60px;
   margin-right: 40px;
   text-align: left;
@@ -74,4 +73,9 @@ body {
 li {
   padding-left: 10px;
   margin-bottom: 15px;
+}
+
+.heading-pravidla {
+  margin: 40px 0px;
+  text-align: center;
 }
