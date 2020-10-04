@@ -79,3 +79,12 @@ li {
   margin: 40px 0px;
   text-align: center;
 }
+
+.image {
+  width: 80%;
+}
+.description {
+  margin: 0;
+  font-style: italic;
+  padding: 5px 10% 35px 10%;
+}
