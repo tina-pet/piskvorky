@@ -100,23 +100,45 @@ li {
   width: 80%;
 }
 .description {
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
   margin: 0;
   font-style: italic;
   padding: 5px 10% 35px 10%;
 }
 
-@media screen and (min-width: 960px) {
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  filter: invert(100%);
+}
+
+@media screen and (min-width: 860px) {
   .images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .image {
+    width: 100%;
   }
 
   .situation {
-    flex-basis: 50%;
+    margin: 0;
+    flex-basis: 45%;
   }
 
-  a {
+  .obsah2 a {
     padding: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .obsah2 {
+    max-width: 960px;
   }
 }
