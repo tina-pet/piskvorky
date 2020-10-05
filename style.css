@@ -64,7 +64,7 @@ body {
   background-attachment: fixed;
 }
 
-/*  Pravidla styly  */
+/*  Pravidla.html styly  */
 
 .obsah2 {
   width: 80%;
@@ -99,6 +99,7 @@ li {
 .image {
   width: 80%;
 }
+
 .description {
   font-family: 'Arial', sans-serif;
   color: #ffffff;
@@ -114,6 +115,10 @@ li {
   height: 1em;
   width: 1em;
   filter: invert(100%);
+}
+
+.situation {
+  margin: 0;
 }
 
 @media screen and (min-width: 860px) {
