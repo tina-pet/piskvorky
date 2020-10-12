@@ -166,10 +166,17 @@ li {
 .buttons {
   display: flex;
   flex-wrap: wrap;
+  height: 80vmin;
+  border: 1px solid black;
 }
 
 button {
   flex: 1 1 10%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+  background-color: inherit;
+  background-image: linear-gradient(rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2));
 }
 
 .go-to a {
