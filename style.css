@@ -91,7 +91,8 @@ li {
   margin-bottom: 15px;
 }
 
-.heading-pravidla {
+.heading-pravidla,
+.heading-hra {
   margin: 40px 0px;
   text-align: center;
 }
@@ -146,4 +147,31 @@ li {
   .obsah2 {
     max-width: 960px;
   }
+}
+
+/*        Hra.html styly    */
+.obsah3 {
+  max-width: 80vmin;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  flex: 1 1 10%;
+}
+
+.go-to a {
+  display: inline-block;
 }
