@@ -3,13 +3,6 @@
 let playerTurn = 'circle';
 
 const addIcon = (event) => {
-  // if (
-  //   event.target.classList.contains(
-  //     'board__field--circle' || 'board__field--cross',
-  //   )
-  // ) {
-  //   return null;
-  // } else
   if (playerTurn === 'circle') {
     event.target.classList.add('board__field--circle');
     event.target.setAttribute('disabled', true);
