@@ -158,6 +158,11 @@ li {
   margin-right: auto;
 }
 
+.player {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -210,14 +215,20 @@ button:focus {
 }
 
 .board__field--cross {
-  background-image: url(images/cross.svg);
+  background: url(images/cross.svg) center center / 90% no-repeat;
+  animation: appear 0.2s ease-in;
 }
 
 .board__field--circle {
-  background-image: url(images/circle.svg);
+  background: url(images/circle.svg) center center / 90% no-repeat;
+  animation: appear 0.2s ease-in;
 }
 
-.player {
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
+@keyframes appear {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
